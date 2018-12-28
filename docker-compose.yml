@@ -1,0 +1,6 @@
+cordova:
+    build: "./docker/cordova"
+node:
+    image: node:10.14.2
+    links:
+        - cordova
